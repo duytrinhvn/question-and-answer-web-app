@@ -1,0 +1,109 @@
+body{
+	background-color: #F0EEEE;
+	margin:0;
+	padding:0;
+}
+#container{
+	width: 80%;
+	margin: auto;
+}
+
+/*Links*/
+.fullPostLink{
+	color: blue;
+	text-decoration: none;
+}
+.titleLink {
+	color: black;
+	text-decoration: none;
+}
+
+
+/*Navigation bar*/
+ul {
+  overflow: hidden;
+  margin:0;
+  padding:0;
+  background-color: white;
+}
+#nav li{
+	list-style-type: none;
+	float: left;
+	margin: 0px 30px;
+}
+#logo{
+	font-size: 4em;
+	color: orange;
+}
+
+
+/*Text fields*/
+#content, .comment, .question{
+	padding: 20px;
+	margin: 40px;
+	border: 2px solid #DEDEDE;
+	background-color: white;
+	border-radius: 10px;
+}
+.question{
+	padding: 20px;
+	margin: 40px;
+	border: 2px solid orange;
+	background-color: white;
+	border-radius: 10px;
+}
+
+
+/*Buttons*/
+#addQuestionButton, #searchButton, #comment_button, #question_button, #refreshButton{
+	height: 35px;
+	margin-top: 1.3em;
+	background-color: orange;
+	border: none;
+	padding: 10px;
+	color: white;
+	border-radius: 10px;
+}
+#comment_button, #question_button{
+	display: block;
+	margin: auto;
+	padding: 10px 30px;
+}
+#addQuestionButton {margin-top: 1.5em;}
+#refreshButton {margin-left: 15px;}
+
+
+/*Textbox input */
+#comment_author_input, #question_author_input, #question_title_input{
+	width: 100%;
+	padding: 10px;
+}
+#question_title_input{
+	margin-top: 30px;
+}
+#question_author, #comment_author{
+	font-weight: bold;
+}
+
+#comment_date, #question_date{
+	font-weight: lighter;
+	font-style: italic;
+	display: block;
+}
+#searchbar{
+	width: 30em;
+	height: 2em;
+	margin-top: 1.5em;
+	padding: 5px;
+}
+
+/*Textarea*/
+#comment_textarea, #question_textarea{
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	padding: 10px;
+}
+#question_textarea{
+	height: 200px;
+}
