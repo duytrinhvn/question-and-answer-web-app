@@ -8,7 +8,7 @@ A local server environment (WAMP, XAMPP, MAMP, etc. )
 
 ## Installing
 
-Import database file qanda.sql 
+Import database file *qanda.sql* 
 
 ## Authors
 
